@@ -70,7 +70,7 @@
 .cloud {
     border-radius: 360px;
     /* propriété qui permet de définir des coins arrondis pour la bordure de l'élément ici de 360 pixel */
-    margin-left: 200px;
+   
     /* propriété qui permet de déplacer l'élément de 200 pixel par rapport à la marge gauche */
 }
 
