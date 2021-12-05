@@ -1,0 +1,304 @@
+/* l'image de fond de la page index */
+.backimg {
+    background: url('image/fond.jpg') no-repeat center center;
+    /* permet de mettre l'image "fond.pnj" en fond*/
+    /* no-repeat permet que l'image ne se duplique pas */
+    /* center center permet de centrer l'image en x et y  */
+    background-size: cover;
+    /* permet que l'image soit redimensionnée pour être aussi grande que possible et pour conserver ses proportions */
+    height: 810px;
+    /* propriété qui défini la hauteur de l'élément et permet de faire une mise en forme avec la propriété background-size: cover; */
+}
+
+/* photo de moi présent dans la page index */
+.moi {
+    width: 250px;
+    /* propriété qui défini la largeur de l'élément */
+    border-radius: 100px;
+    /* propriété qui permet de définir des coins arrondis pour la bordure de l'élément ici de 100 pixel */
+    padding: 25px;
+    /* propriété qui permet de definir un écart de 25 pixel avec la marge */
+}
+
+/* texte "Pour me contacter" de la page index */
+#contact {
+    position: relative;
+    /* permet de modifier la position de l'élément directement avec les propriété top, left, buttom, right */
+    top: 250px;
+    /* permet de deplacer la position de 250 pixel vers le bas */
+    left: 45px;
+    /* permet de deplacer la position de 45 pixel vers la droite */
+    font-size: 25px;
+    /* propriété qui permet d'augementer la taille du texte de l'élément de 25 pixel */
+    color: rgb(29, 28, 28);
+    /* propriété qui permet de changer la couleur du texte de l'élément */
+    text-decoration: underline;
+    /* propriété qui permet de souligner le texte de l'élément */
+    font-weight: bold;
+    /* propriété qui permet que le texte de l'élément soit en gras */
+}
+
+/* image des réseau présent sur la page index */
+.reseau img {
+    margin-top: 300px;
+    /* propriété qui permet de déplacer l'élément de 300 pixel par rapport à la marge du haut */
+    margin-left: 50px;
+    /* propriété qui permet de déplacer l'élément de 50 pixel par rapport à la marge gauche */
+}
+
+/* image de ball présente sur la page interet */
+.ball {
+    border-radius: 50px;
+    /* propriété qui permet de définir des coins arrondis pour la bordure de l'élément ici de 50 pixel */
+    margin-left: 200px;
+    /* propriété qui permet de déplacer l'élément de 200 pixel par rapport à la marge gauche */
+    margin-top: 50px;
+    /* propriété qui permet de déplacer l'élément de 50 pixel par rapport à la marge du haut */
+}
+
+/* image d'une figure de ski présente sur la page interet */
+.logoski {
+    margin-left: 100px;
+    /* propriété qui permet de déplacer l'élément de 100 pixel par rapport à la marge gauche */
+    margin-top: 50px;
+    /* propriété qui permet de déplacer l'élément de 50 pixel par rapport à la marge du haut */
+    border-radius: 50px;
+    /* propriété qui permet de définir des coins arrondis pour la bordure de l'élément ici de 50 pixel */
+}
+
+/* image de nuage présente sur la page projet */
+.cloud {
+    border-radius: 360px;
+    /* propriété qui permet de définir des coins arrondis pour la bordure de l'élément ici de 360 pixel */
+    margin-left: 200px;
+    /* propriété qui permet de déplacer l'élément de 200 pixel par rapport à la marge gauche */
+}
+
+/* texte en blanc présent sur la page index */
+div.info {
+    position: static;
+    color:white;
+    /* propriété qui permet de changer la couleur du texte de l'élément */
+    font-size: 25px;
+    /* propriété qui permet d'augementer la taille du texte de l'élément de 25 pixel */
+}
+
+/* abbréviation BUT dans le texte en blanc présent sur la page index */
+div.info abbr {
+    text-decoration: underline;
+     /* propriété qui permet de souligner l'abbréviation dans le texte de l'élément */
+}
+
+/* menu de navigation */
+/* header de la page index */
+.haut {
+    display: flex;
+    /* propriété qui permet de rendre l'élément flexible c'est-à-dire capabble d'adapter ses dimension en fonction de l'espace disponible */
+    align-items: center;
+    /* propriété qui permet d'aligner l'élément au centre */
+
+}
+
+/* header de la page projet, interet et presentation */
+.hautprojet {
+    text-align: center;
+    /* propriété qui permet d'aligner l'élément au centre */
+    padding-top: 50px;
+     /* propriété qui permet de definir un écart de 50 pixel pixel avec la marge du haut */
+    background-color: #4D8AE6;
+    /* propriété qui permet de changer la couleur de fond */
+}
+
+/* position de la barre de navigation dans les différente pages */
+.barre {
+    padding-bottom: 50px;
+    /* propriété qui permet de definir un écart de 50 pixel pixel avec la marge du bas */
+}
+
+ /* permet la mise en forme de la barre de navigation de index qui est différente des autres pages */
+div.barre2 {
+    margin-left: auto;
+    /* propriété qui permet au a la barre de navigation d'être bien placé vers la gauche sur la page index */
+}
+
+/* liste de la barre de navigation */
+.barre ul li {
+    list-style: none;
+    /* propriété qui permet de supprimé les puces de la liste */
+    display: inline-block;
+}
+
+/* lien hypertexte pour naviguer entre les diverse pages*/
+.barre ul a {
+    color: rgb(228, 220, 220);
+    /* propriété qui permet de changer la couleur du texte de l'élément */
+    margin-right: 50px;
+    /* propriété qui permet de déplacer l'élément de 50 pixel par rapport à la marge droite */
+    padding: 10px;
+    /* propriété qui permet de definir un écart de 10 pixel avec la marge */
+    text-decoration: none;
+    /* propriété qui supprime toute décoration présente sur le texte de l'élément */
+    border: black solid;
+    /* propriété qui permet de crée un encadrement de couleur black solide autour de l'élément */
+
+} 
+
+/* carré des liens hypertexte vers les autres pages */
+li a:hover {
+    background-color: rgb(54, 52, 52);
+    /* permet d'avoir un fond d'une couleur défini quand on passe la souris sur l'élément */
+}
+
+/* texte pour les activité de mes centres d'intérêts */
+div.activité {
+    margin-top: -80px;
+    /* propriété qui permet de déplacer l'élément de -80 pixel par rapport à la marge du haut */
+}
+
+/* permet la mise en forme de certains paragraphe de la page interet */
+div.texte {
+    margin-left: 40px;
+    /* propriété qui permet de déplacer l'élément de 40 pixel par rapport à la marge de gauche */
+    margin-right: 60px;
+    /* propriété qui permet de déplacer l'élément de -80 pixel par rapport à la marge de droit */
+    margin-top: 20px;
+    /* propriété qui permet de déplacer l'élément de 20 pixel par rapport à la marge du haut */
+    border: cyan solid;
+    /* propriété qui permet de crée un encadrement de couleur cyan autour de l'élément */
+    padding-left: 10px;
+    /* propriété qui permet de definir un écart de 10 pixel pixel avec la marge de gauche */
+    line-height: 150%;
+    /* propriété qui indique l'espace d'écart de 150 % entre les lignes du texte de l'élément */
+    font-size: 25px;
+    /* propriété qui permet d'augementer la taille du texte de l'élément de 25 pixel */
+}
+
+/* permet la mise en forme de certains paragraphe de la page présentation */
+div.texte2 {
+    margin-left: 40px;
+    /* propriété qui permet de déplacer l'élément de 40 pixel par rapport à la marge de gauche */
+    margin-right: 60px;
+    /* propriété qui permet de déplacer l'élément de -80 pixel par rapport à la marge de droit */
+    margin-top: 20px;
+    /* propriété qui permet de déplacer l'élément de 20 pixel par rapport à la marge du haut */
+    border: rgb(6, 7, 6) solid;
+    /* propriété qui permet de crée un encadrement de couleur autour de l'élément */
+    line-height: 150%;
+    /* propriété qui indique l'espace d'écart de 150 % entre les lignes du texte de l'élément */
+    text-align: center;
+    /* propriété qui permet d'aligner l'élément au centre */
+    font-size: 20px;
+    /* propriété qui permet d'augementer la taille du texte de l'élément de 20 pixel */
+}
+
+/* permet la mise en forme du texte sur les droits d'auteurs dans la page interet */
+div.droits {
+    margin-left: 20px;  
+    /* propriété qui permet de déplacer l'élément de 20 pixel par rapport à la marge de gauche */
+}
+
+/* permet de supprimer la décoration du lien cliquable dans premier paragraphe de la page présentation */
+.RT a {
+    text-decoration: none;
+    /* propriété qui supprime toute décoration présente sur le texte de l'élément */
+}
+
+/* permet la mise en forme du titre dans la page interet */
+.titre {
+    text-align: center;
+    /* propriété qui permet d'aligner l'élément au centre */
+    font-size: 30px;
+    /* propriété qui permet d'augementer la taille du texte de l'élément de 30 pixel */
+}
+
+/* permet la mise en forme du titre dans la page projet */
+.titrePPP {
+    margin-left: 20px;
+    /* propriété qui permet de déplacer l'élément de 20 pixel par rapport à la marge de gauche */
+    font-size: 20px;
+    /* propriété qui permet d'augementer la taille du texte de l'élément de 20 pixel */
+    text-decoration: underline;
+}
+
+/* permet la mise en forme des l'images présente dans la page interet */
+.image {
+    margin-top: 50px;
+    /* propriété qui permet de déplacer l'élément de 50 pixel par rapport à la marge du haut */
+    height: 90%;
+    /* propriété qui défini la hauteur de l'élément en fonction du % de la page ici 90% */
+    width: 100%;
+    /* propriété qui défini la largeur de l'élément en fonction du % de la page ici 100% */
+}
+
+
+/* permet la mise en forme de l'image du département RT présente dans la page presentation */
+.imageRT {
+    margin-top: 30px;
+    /* propriété qui permet de déplacer l'élément de 30 pixel par rapport à la marge du haut */
+    margin-left: 45px;
+    /* propriété qui permet de déplacer l'élément de 45 pixel par rapport à la marge de gauche */
+    height: 800px;
+    /* propriété qui défini la hauteur de l'élément de 800 pixel */
+    width: 95%;
+    /* propriété qui défini la largeur de l'élément en fonction du % de la page ici 100%*/
+}
+
+/* body de toute les pages sauf projet */
+.miseenforme {
+    margin: -8px;
+    /* propriété qui permet de déplacer l'élément de -8 pixel par rapport à toutes les marges, permet de mettre en forme la page par rapport à toutes les marges */
+}
+
+/* body de la page projet */
+.miseenforme2 {
+    margin: -8px;
+    /* propriété qui permet de déplacer l'élément de -8 pixel par rapport à toutes les marges, permet de mettre en forme la page par rapport à toutes les marges */
+    background-color: #4D8AE6;
+    /* propriété qui permet de changer la couleur de fond */
+    }
+
+/* permet d'avoir des bordure au tableau présent dans la page interet */
+table, tr, td {
+    border: solid black;
+    /* propriété qui permet de crée une bordure de couleur black solide autour de l'élément */
+}
+
+/* permet la mise en forme du tableau de la page interet */
+.tableau {
+    margin-left: 10px;
+    /* propriété qui permet de déplacer l'élément de 10 pixel par rapport à la marge de gauche */
+}
+
+/* permet de supprimer les decorations des liens hypertexte dans le tableau de la page interet */
+.tableau a {
+    text-decoration: none;
+    /* propriété qui supprime toute décoration présente sur le texte de l'élément */
+}
+
+/* mise en forme globale des éléments dans la div projet de la page projet */
+.projet {
+    margin: 40px;
+    /* propriété qui permet de déplacer l'élément de 40 pixel par rapport à toutes les marges */
+    font-size: 25px;
+    /* propriété qui permet d'augementer la taille du texte de l'élément de 20 pixel */
+    line-height: 150%;
+    /* propriété qui indique l'espace d'écart de 150 % entre les lignes du texte de l'élément */
+}
+
+/* mise en forme des heading présent dans la div projet de la page projet */
+.projet h5 {
+    text-align: center;
+    /* propriété qui permet d'aligner l'élément au centre */
+    margin-right: 150px;
+    /* propriété qui permet de déplacer l'élément de 150 pixel par rapport à la marge de droit */
+    font-size: 30px;
+    /* propriété qui permet d'augementer la taille du texte de l'élément de 30 pixel */
+    color: rgb(212, 212, 212);
+    /* propriété qui permet de changer la couleur du texte de l'élément */
+}
+
+/* élément paragraphe de la div projet de la page projet */
+.projet p {
+    font-size: 20px;
+    /* propriété qui permet d'augementer la taille du texte de l'élément de 20c pixel */
+}
