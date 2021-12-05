@@ -237,9 +237,8 @@ div.droits {
     /* propriété qui permet de déplacer l'élément de 30 pixel par rapport à la marge du haut */
     margin-left: 45px;
     /* propriété qui permet de déplacer l'élément de 45 pixel par rapport à la marge de gauche */
-    height: 800px;
     /* propriété qui défini la hauteur de l'élément de 800 pixel */
-    width: 95%;
+    width: 100%;
     /* propriété qui défini la largeur de l'élément en fonction du % de la page ici 100%*/
 }
 
